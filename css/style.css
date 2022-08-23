@@ -11,3 +11,16 @@ body {
 }
 
 /***** /GENERICS *****/
+
+
+#chilometri,
+#anni,
+#prezzo {
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+
+#prezzo {
+    font-size: larger;
+}
