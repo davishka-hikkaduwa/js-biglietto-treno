@@ -34,21 +34,3 @@ else if ((anni < 65) && (anni >= 18)) {
     let risposta = `Il tuo prezzo del biglietto: ${prezzo_biglietto.toFixed(2)}€`;
     document.getElementById("prezzo").innerHTML = risposta;
 }
-
-
-// const text = prompt('Quando sei nato?');
-// const textAsNumber = parseInt(text);
-// console.log('textAsNumber', textAsNumber);
-// const anni = 2022 - textAsNumber;
-
-// const risposta = `la tua età è ${anni}`;
-
-// console.log(anni);
-
-// if (isNaN(textAsNumber)) {
-//     // blocco di istruzioni 1
-//     document.getElementById('mio_id').innerHTML = 'non hai inserito un numero';
-// } else {
-//     // blocco di istruzioni 2
-//     document.getElementById('mio_id').innerHTML = risposta;
-// }
